@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "108194246127",
+    "project_id": "quickbuy2-6dae2",
+    "storage_bucket": "quickbuy2-6dae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108194246127:android:891e6fe9e57cdb6abe1a1a",
+        "android_client_info": {
+          "package_name": "com.example.quickbuy2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCffOKTT7OIjIJOH2QEWUqVP8LWKZqTGhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

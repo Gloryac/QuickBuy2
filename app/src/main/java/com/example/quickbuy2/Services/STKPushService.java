@@ -1,0 +1,19 @@
+package com.example.quickbuy2.Services;
+
+
+import com.example.quickbuy2.Model.AccessToken;
+import com.example.quickbuy2.Model.STKPush;
+
+import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.GET;
+import retrofit2.http.POST;
+
+public interface STKPushService {
+    @POST("mpesa/stkpush/v1/processrequest")
+    Call<STKPush> sendPush(@Body STKPush stkPush);
+
+    //@GET("oauth/v1/generate?grant_type=client_credentials")
+    @GET(" https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials")
+    Call<AccessToken>getAccessToken();
+}
